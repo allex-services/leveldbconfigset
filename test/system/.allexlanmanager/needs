@@ -1,0 +1,15 @@
+[
+  {
+    "modulename": "allex_leveldbconfigsetservice",
+    "instancename": "Config",
+    "propertyhash": {
+      "path": "config.db",
+      "kvstorage": {
+        "dbcreationoptions": {
+          "bufferKeyEncoding": ["String", "String"]
+        }
+      },
+      "fields": ["width", "height", "weight"]
+    }
+  }
+]
