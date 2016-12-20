@@ -1,4 +1,4 @@
-function createUser(execlib, ParentUser) {
+function createUser(execlib, ParentUser, leveldblib) {
   'use strict';
   if (!ParentUser) {
     ParentUser = execlib.execSuite.ServicePack.Service.prototype.userFactory.get('user');
